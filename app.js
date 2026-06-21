@@ -399,7 +399,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const email = document.getElementById('email');
       const phone = document.getElementById('phone');
       const collectorProfile = document.getElementById('collectorProfile');
-      const message = document.getElementById('message');
       const fundsCheckbox = document.getElementById('fundsCheckbox');
 
       let isValid = true;
@@ -416,7 +415,6 @@ document.addEventListener('DOMContentLoaded', () => {
       validateField(firstName, firstName.value.trim() !== '');
       validateField(lastName, lastName.value.trim() !== '');
       validateField(collectorProfile, collectorProfile.value !== '');
-      validateField(message, message.value.trim() !== '');
       validateField(phone, phone.value.trim() !== '');
       
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -451,7 +449,7 @@ document.addEventListener('DOMContentLoaded', () => {
         formSuccess.style.display = 'block';
         enquiryForm.reset();
 
-        [firstName, lastName, email, phone, collectorProfile, message].forEach(field => {
+        [firstName, lastName, email, phone, collectorProfile].forEach(field => {
           field.style.borderColor = '';
         });
         checkmark.style.borderColor = '';
