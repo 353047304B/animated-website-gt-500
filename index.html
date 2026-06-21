@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the extraordinary history, specifications, and provenance of the 1967 Shelby GT500 Engineering Car (Chassis 0425). One of only 11 factory development vehicles.">
+  <title>1967 Shelby GT500 Engineering Car - Chassis 0425</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        SHELBY <span>CHASSIS 0425</span>
+      </a>
+      
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#provenance">Provenance</a></li>
+        <li><a href="#specifications">Specifications</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#history">History</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#enquiry" class="nav-cta">Enquire</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- IMMERSIVE SCROLL HERO WRAPPER -->
+  <div class="scroll-wrapper" id="heroScrollWrapper">
+    <section class="hero-sticky" id="hero">
+      <div class="hero-canvas-container" id="heroBg">
+        <canvas id="heroCanvas"></canvas>
+      </div>
+      
+      <!-- SCROLL-LINKED TEXT OVERLAYS — each panel pinned to a different corner -->
+
+      <!-- PANEL 1 — top-left -->
+      <div class="hero-text-overlay pos-top-left" id="heroText1">
+        <span class="hero-overline">1967 Shelby GT500 · Engineering Car</span>
+        <h2 class="hero-title">Chassis<br><em>0425</em></h2>
+        <p class="hero-subtitle">One of only 11 factory-built<br>Shelby American engineering vehicles.</p>
+        <span class="hero-detail-line">2,048 GT500s produced · This is No. 0425</span>
+      </div>
+
+      <!-- PANEL 2 — bottom-right -->
+      <div class="hero-text-overlay pos-bottom-right" id="heroText2">
+        <span class="hero-overline">Exterior &amp; Interior</span>
+        <h2 class="hero-title">Dark Moss<br><em>Green</em></h2>
+        <p class="hero-subtitle">Factory colour over Parchment<br>leather — correct and fully authenticated.</p>
+        <span class="hero-detail-line">Original fibreglass bonnet &amp; bootlid · Early inboard headlights</span>
+      </div>
+
+      <!-- PANEL 3 — bottom-left -->
+      <div class="hero-text-overlay pos-bottom-left" id="heroText3">
+        <span class="hero-overline">Powertrain</span>
+        <h2 class="hero-title">428ci<br><em>Police Interceptor V8</em></h2>
+        <p class="hero-subtitle">Dual Holley four-barrel carburettors.<br>Factory-rated 355 BHP.</p>
+        <span class="hero-detail-line">4-Speed Toploader Manual · High-ratio rear axle</span>
+      </div>
+
+      <!-- PANEL 4 — top-right -->
+      <div class="hero-text-overlay pos-top-right" id="heroText4">
+        <span class="hero-overline">Provenance &amp; Documentation</span>
+        <h2 class="hero-title">Fully<br><em>Documented</em></h2>
+        <p class="hero-subtitle">Deluxe Marti Report · Shelby<br>build sheet · Original owner history.</p>
+        <span class="hero-detail-line">Continuous documented ownership since 1967</span>
+      </div>
+
+      <!-- SIDE PROGRESS DOTS -->
+      <div class="hero-progress-dots" aria-hidden="true">
+        <div class="hero-dot active"></div>
+        <div class="hero-dot"></div>
+        <div class="hero-dot"></div>
+        <div class="hero-dot"></div>
+      </div>
+
+      <div class="hero-scroll-indicator text-gold uppercase" id="heroScrollIndicator">
+        <span>Scroll to Begin the Story</span>
+        <div class="arrow-down">&#8595;</div>
+      </div>
+    </section>
+  </div>
+
+
+  <!-- DETAILS & PRICE SECTION (STICKY OVERVIEW) -->
+  <div class="scroll-wrapper" id="priceScrollWrapper">
+    <section class="details-price-sticky" id="details-price">
+      <div class="sticky-side price-side">
+        <div class="price-box">
+          <span class="sale-tag uppercase">Private Treaty Offering</span>
+          <span class="chassis-num text-gold uppercase">Chassis 0425</span>
+          <h2>Established Estimate</h2>
+          <div class="price-value text-gold">$1,850,000 - $2,200,000</div>
+          <p class="price-caption">Qualified collectors may submit offers. Proof of capability required prior to private viewings in the United Kingdom.</p>
+        </div>
+      </div>
+      
+      <div class="scroll-side details-side">
+        <div class="detail-block" id="block-rarity">
+          <span class="block-index text-gold">01</span>
+          <h3>Engineering Rarity</h3>
+          <p>Unlike standard production Shelby Mustangs, Chassis 0425 is one of only eleven Engineering Cars designated by Shelby American. These vehicles served as the physical laboratories for Carroll Shelby and his engineering staff at the Los Angeles Airport facility, testing structural limits, visual modifications, and powertrain options.</p>
+        </div>
+        
+        <div class="detail-block" id="block-specs">
+          <span class="block-index text-gold">02</span>
+          <h3>Experimental Spec</h3>
+          <p>Configured in correct Dark Moss Green paint with a luxurious Parchment interior, this Shelby represents the pinnacle of executive style and motorsport performance. It is powered by a high-output 428 cubic inch V8 block connected to a heavy-duty 4-speed manual gearbox, retaining original early production fiberglass components.</p>
+        </div>
+        
+        <div class="detail-block" id="block-provenance">
+          <span class="block-index text-gold">03</span>
+          <h3>Unbroken History</h3>
+          <p>From its initial delivery sheet on January 12, 1967, to its company car service and subsequent transition to private ownership, Chassis 0425 features a fully documented provenance. It is officially listed in the SAAC Registry, backed by deluxe production paperwork, and represents an investment-grade classic of historical magnitude.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- THE STATEMENT SECTION (APPLE-STYLE INTERPOLATED QUOTE) -->
+  <div class="scroll-wrapper" id="statementScrollWrapper">
+    <section class="statement-sticky" id="statement">
+      <div class="statement-bg" id="statementBg"></div>
+      <div class="statement-content" id="statementContent">
+        <p class="quote-text">
+          "We didn't just build a GT500. We built a rolling laboratory to realize Carroll's ultimate vision of road-going dominance."
+        </p>
+        <span class="quote-author text-gold uppercase">— Shelby American Engineering Division, 1967</span>
+      </div>
+    </section>
+  </div>
+
+  <!-- WHY THIS CAR MATTERS (PROVENANCE) -->
+  <section class="provenance section-padding" id="provenance">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">Heritage & Provenance</span>
+        <h2>Why This Car Matters</h2>
+      </div>
+      
+      <div class="provenance-grid">
+        <div class="provenance-card reveal">
+          <div>
+            <div class="provenance-num">01/11</div>
+            <h3>Engineering Cars</h3>
+            <p>One of only eleven Shelby American factory engineering and development vehicles built, used to test design variations before mass production.</p>
+          </div>
+        </div>
+        
+        <div class="provenance-card reveal reveal-delay-1">
+          <div>
+            <div class="provenance-num">2,048</div>
+            <h3>GT500 Fastbacks</h3>
+            <p>Extremely rare within the grand total of 2,048 Shelby GT500s built in 1967. A unique piece of the legendary muscle car era.</p>
+          </div>
+        </div>
+        
+        <div class="provenance-card reveal reveal-delay-2">
+          <div>
+            <div class="provenance-num">TEST</div>
+            <h3>Factory Spec Vehicle</h3>
+            <p>Retained by Shelby American's engineering team for active test and evaluation, serving as a blueprint for the commercial models.</p>
+          </div>
+        </div>
+        
+        <div class="provenance-card reveal reveal-delay-3">
+          <div>
+            <div class="provenance-num">100%</div>
+            <h3>Documented History</h3>
+            <p>An unbroken chain of ownership and history verified by registry files, production logs, and authentic paperwork archives.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXQUISITE ENGINEERING (ELONGATED NARRATIVE SECTION) -->
+  <section class="engineering section-padding" id="engineering">
+    <div class="container">
+      <div class="engineering-layout">
+        <div class="engineering-text reveal">
+          <span class="text-gold uppercase" style="font-size: 0.8rem; font-weight:600; letter-spacing:0.2em; display:block; margin-bottom:15px;">Historical Blueprint</span>
+          <h2>The Heart of the Beast</h2>
+          <p>Under the fiberglass bonnet lies the legendary 428 cubic inch Police Interceptor V8 engine, modified by Shelby American with dual Holley four-barrel carburetors, an aluminium intake manifold, and cast aluminium Cobra valve covers. Power is delivered to the rear wheels via a rugged four-speed manual transmission, resulting in a rated 355 BHP that dominated tracks and highways alike.</p>
+          <p>Chassis 0425 was used specifically to calibrate carburetor fuel ratios and testing structural heat distribution under high-load track conditions, making it an indispensable asset in developing the 1967 Shelby GT500's mechanical parameters.</p>
+        </div>
+        <div class="engineering-media reveal reveal-delay-1">
+          <div class="blueprint-card">
+            <img src="images/engine.png" alt="Shelby 428ci V8 engine close-up">
+            <div class="blueprint-overlay">
+              <span class="blueprint-tag text-gold">Spec: 428ci V8 Police Interceptor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VEHICLE SPECIFICATIONS -->
+  <section class="specs section-padding" id="specifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">Technical Summary</span>
+        <h2>Vehicle Specifications</h2>
+      </div>
+      
+      <div class="specs-wrapper">
+        <div class="reveal">
+          <div class="specs-tab-header">
+            <button class="specs-tab-btn active" data-tab="overview">Overview</button>
+            <button class="specs-tab-btn" data-tab="exterior">Exterior</button>
+            <button class="specs-tab-btn" data-tab="interior">Interior</button>
+            <button class="specs-tab-btn" data-tab="engine">Engine</button>
+            <button class="specs-tab-btn" data-tab="drivetrain">Drivetrain</button>
+          </div>
+          
+          <!-- TAB: OVERVIEW -->
+          <div class="specs-tab-content active" id="tab-overview">
+            <div class="specs-table">
+              <div class="spec-row">
+                <span class="spec-label">Chassis Number</span>
+                <span class="spec-value text-gold">0425</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Model Year</span>
+                <span class="spec-value">1967</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Model Designation</span>
+                <span class="spec-value">GT500 Fastback Engineering Car</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Shelby Order Number</span>
+                <span class="spec-value">No. 4321</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Date of Manufacture</span>
+                <span class="spec-value">January 12, 1967</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Original Delivery Point</span>
+                <span class="spec-value">Shelby American, Los Angeles</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- TAB: EXTERIOR -->
+          <div class="specs-tab-content" id="tab-exterior">
+            <div class="specs-table">
+              <div class="spec-row">
+                <span class="spec-label">Paint Color</span>
+                <span class="spec-value">Dark Moss Green (Factory Correct)</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Stripe Package</span>
+                <span class="spec-value">White Le Mans Racing Stripes</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Body Construction</span>
+                <span class="spec-value">Steel Unitary with Fiberglass Hood & Bootlid</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Headlight Configuration</span>
+                <span class="spec-value">Early-style Inboard High-beams</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Wheels & Tires</span>
+                <span class="spec-value">15" Shelby Ten-Spoke Aluminium | Goodyear Tires</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- TAB: INTERIOR -->
+          <div class="specs-tab-content" id="tab-interior">
+            <div class="specs-table">
+              <div class="spec-row">
+                <span class="spec-label">Interior Color</span>
+                <span class="spec-value">Parchment</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Seat Material</span>
+                <span class="spec-value">Deluxe Knitted Luxury Vinyl Buckets</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Steering Wheel</span>
+                <span class="spec-value">3-Spoke Wood-Rimmed Shelby Wheel</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Instrumentation</span>
+                <span class="spec-value">140 MPH Speedometer | 8,000 RPM Tachometer</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Option Packages</span>
+                <span class="spec-value">Fold-Down Rear Seat, Premium AM Radio</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- TAB: ENGINE -->
+          <div class="specs-tab-content" id="tab-engine">
+            <div class="specs-table">
+              <div class="spec-row">
+                <span class="spec-label">Engine Block</span>
+                <span class="spec-value">428 cubic inch Police Interceptor V8</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Induction System</span>
+                <span class="spec-value">Dual Holley 4-Barrel Carburetors</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Cylinder Heads</span>
+                <span class="spec-value">Cast Iron High-Performance Flow</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Valve Covers</span>
+                <span class="spec-value">Cobra Le Mans Cast Aluminium</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Horsepower Rating</span>
+                <span class="spec-value">355 BHP @ 5,400 RPM (Factory Rated)</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- TAB: DRIVETRAIN -->
+          <div class="specs-tab-content" id="tab-drivetrain">
+            <div class="specs-table">
+              <div class="spec-row">
+                <span class="spec-label">Transmission</span>
+                <span class="spec-value">4-Speed Manual Transmission</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Clutch Size</span>
+                <span class="spec-value">11.5-inch Heavy Duty Performance Clutch</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Rear Differential</span>
+                <span class="spec-value">Traction-Lok Differential with 3.25:1 Gear Ratio</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Braking System</span>
+                <span class="spec-value">Power-Assisted Front Disc, Rear Drum</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label">Suspension Setup</span>
+                <span class="spec-value">Cobra Competition Handling Pack</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="specs-image reveal reveal-delay-1">
+          <img src="images/exterior.png" id="specsDisplayImage" alt="Shelby GT500 detailing">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORIGINAL FEATURES -->
+  <section class="features section-padding" id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">Design Details</span>
+        <h2>Original Authentic Features</h2>
+      </div>
+      
+      <div class="features-grid">
+        <div class="feature-item reveal">
+          <div class="feature-icon">01</div>
+          <h3>Fiberglass Bonnet & Bootlid</h3>
+          <p>Hand-laid, lightweight fiberglass bonnet and bootlid panels correct to the early development specifications, distinct from late-run factory steel components.</p>
+        </div>
+        
+        <div class="feature-item reveal reveal-delay-1">
+          <div class="feature-icon">02</div>
+          <h3>Inboard Headlights</h3>
+          <p>Features the highly sought-after early-production inboard high-beam headlights in the grille, before DOT regulations shifted them outboard.</p>
+        </div>
+        
+        <div class="feature-item reveal reveal-delay-2">
+          <div class="feature-icon">03</div>
+          <h3>Correct Factory Palette</h3>
+          <p>Refinished in its authentic combination of Dark Moss Green exterior paint over Parchment knitted vinyl upholstery, matching the factory build record.</p>
+        </div>
+        
+        <div class="feature-item reveal reveal-delay-3">
+          <div class="feature-icon">04</div>
+          <h3>Early Production Dials</h3>
+          <p>Fitted with authentic Shelby American dashboard gauges, wood-rimmed steering wheel, and a four-speed shifter from early 1967 production.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HISTORY TIMELINE -->
+  <section class="history section-padding" id="history">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">Provenance Archive</span>
+        <h2>Chronological History</h2>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-badge"></div>
+          <span class="timeline-date">1967</span>
+          <div class="timeline-content">
+            <h3>Completed & Retained</h3>
+            <p>Completed at Shelby American's Los Angeles facility on January 12, 1967. Retained as an official company vehicle for test, development, and display.</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item reveal reveal-delay-1">
+          <div class="timeline-badge"></div>
+          <span class="timeline-date">1968</span>
+          <div class="timeline-content">
+            <h3>First Private Ownership</h3>
+            <p>Released from Shelby American company duties and sold to its first private collector in California, as detailed in original registration papers.</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item reveal reveal-delay-2">
+          <div class="timeline-badge"></div>
+          <span class="timeline-date">1985</span>
+          <div class="timeline-content">
+            <h3>Concourse Restoration</h3>
+            <p>Subjected to a complete concourse-level restoration. Preserved all original engineering panels, fiberglass, and correct drivetrain configurations.</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item reveal reveal-delay-3">
+          <div class="timeline-badge"></div>
+          <span class="timeline-date">1990</span>
+          <div class="timeline-content">
+            <h3>Imported to the UK</h3>
+            <p>Acquired by an avid British collector, imported to the United Kingdom, and registered with the DVLA. Accompanied by historical UK MOT certificates.</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item reveal reveal-delay-4">
+          <div class="timeline-badge"></div>
+          <span class="timeline-date">Present</span>
+          <div class="timeline-content">
+            <h3>Marque Maintenance</h3>
+            <p>Maintained inside a climate-controlled private collection. Routinely serviced by marque specialists to verify mechanical excellence and authenticity.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCUMENTATION -->
+  <section class="documentation section-padding" id="documentation">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">Verification & History</span>
+        <h2>Official Documentation</h2>
+      </div>
+      
+      <div class="doc-grid">
+        <div class="doc-card reveal">
+          <div class="doc-icon">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          </div>
+          <h3>Deluxe Marti Report</h3>
+          <p>Official build sheet replica certifying the car's paint, options, and status as a Shelby American company vehicle.</p>
+        </div>
+        
+        <div class="doc-card reveal reveal-delay-1">
+          <div class="doc-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3>SAAC Registry</h3>
+          <p>Fully listed and recognized in the Shelby American Automobile Club Registry under its designated chassis number 0425.</p>
+        </div>
+        
+        <div class="doc-card reveal reveal-delay-2">
+          <div class="doc-icon">
+            <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>
+          </div>
+          <h3>Shelby Production Records</h3>
+          <p>Original internal dispatch records confirming its retention by Shelby Engineering in Los Angeles for test configurations.</p>
+        </div>
+        
+        <div class="doc-card reveal reveal-delay-3">
+          <div class="doc-icon">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <h3>UK MOT & V5C History</h3>
+          <p>A complete folder of UK registration documentation, tracking MOT tests, mileage records, and ownership history since 1990.</p>
+        </div>
+      </div>
+      
+      <div class="doc-showcase">
+        <div class="doc-showcase-text reveal">
+          <h3>Documented History</h3>
+          <p>Chassis 0425 is accompanied by an extensive binder of historical documents, proving its role in Shelby American's development workflow. It includes original factory orders, build sheets, internal correspondence, and registry certification.</p>
+          <a href="#enquiry" class="btn btn-outline">Request Document Access</a>
+        </div>
+        <div class="doc-showcase-image reveal reveal-delay-1" data-image="images/documentation.png" data-caption="Deluxe Marti Report & Shelby Build Sheet flat-lay">
+          <img src="images/documentation.png" alt="Deluxe Marti Report for Chassis 0425">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery section-padding" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">Media Archive</span>
+        <h2>Visual Gallery</h2>
+      </div>
+      
+      <div class="gallery-filters reveal">
+        <button class="gallery-filter-btn active" data-filter="all">All Photos</button>
+        <button class="gallery-filter-btn" data-filter="exterior">Exterior</button>
+        <button class="gallery-filter-btn" data-filter="interior">Interior</button>
+        <button class="gallery-filter-btn" data-filter="engine">Engine Bay</button>
+        <button class="gallery-filter-btn" data-filter="documentation">Documentation</button>
+      </div>
+      
+      <div class="gallery-grid">
+        <div class="gallery-item large reveal" data-category="exterior" data-image="images/exterior.png" data-caption="1967 Shelby GT500 Chassis 0425 Front Three-Quarter View">
+          <img src="images/exterior.png" alt="Shelby GT500 Exterior View">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-tag">Exterior</span>
+            <h3 class="gallery-item-title">Chassis 0425 Front View</h3>
+          </div>
+        </div>
+        
+        <div class="gallery-item tall reveal reveal-delay-1" data-category="interior" data-image="images/interior.png" data-caption="Parchment Knitted Vinyl Interior Dashboard & Wood Steering Wheel">
+          <img src="images/interior.png" alt="Shelby GT500 Parchment Interior">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-tag">Interior</span>
+            <h3 class="gallery-item-title">Parchment Leather Cockpit</h3>
+          </div>
+        </div>
+        
+        <div class="gallery-item tall reveal reveal-delay-2" data-category="engine" data-image="images/engine.png" data-caption="428 cubic inch V8 Police Interceptor Engine Bay Detail">
+          <img src="images/engine.png" alt="Shelby GT500 Engine Bay">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-tag">Engine Bay</span>
+            <h3 class="gallery-item-title">428ci Police Interceptor V8</h3>
+          </div>
+        </div>
+        
+        <div class="gallery-item large reveal reveal-delay-3" data-category="documentation" data-image="images/documentation.png" data-caption="Deluxe Marti Report & Shelby American Build Records Flat-lay">
+          <img src="images/documentation.png" alt="Shelby GT500 Historic Paperwork">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-tag">Documentation</span>
+            <h3 class="gallery-item-title">Official Factory Documentation</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENQUIRY SECTION -->
+  <section class="enquiry section-padding" id="enquiry">
+    <div class="container">
+      <div class="enquiry-wrapper">
+        <div class="enquiry-info reveal">
+          <span class="text-gold uppercase" style="font-size: 0.8rem; font-weight:600; letter-spacing: 0.2em; display:block; margin-bottom:15px;">Private Treaty Sale</span>
+          <h3>Acquire a Piece of Shelby History</h3>
+          <p>Chassis 0425 is offered via private sales representation. We invite qualified collectors, representatives, and institutions to submit an enquiry or request a private viewing.</p>
+          
+          <div class="enquiry-contact-details">
+            <div class="contact-detail-item">
+              <span class="label">Location</span>
+              <span class="value">London, United Kingdom</span>
+            </div>
+            <div class="contact-detail-item">
+              <span class="label">Enquiries</span>
+              <span class="value text-gold">private-treaty@shelby0425.co.uk</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="enquiry-form-container reveal reveal-delay-1">
+          <form id="enquiryForm" novalidate>
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" id="firstName" class="form-control" placeholder="John" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" id="lastName" class="form-control" placeholder="Adams" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" class="form-control" placeholder="collector@heritage.com" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" id="phone" class="form-control" placeholder="+44 (0) 7700 900077" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="collectorProfile" class="form-label">Collector Profile</label>
+              <select id="collectorProfile" class="form-control" required>
+                <option value="" disabled selected>Select profile type</option>
+                <option value="private">Private Collector</option>
+                <option value="museum">Museum / Institutional Buyer</option>
+                <option value="broker">Agent / Broker</option>
+                <option value="dealer">Automotive Dealer</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="form-label">Enquiry Details</label>
+              <textarea id="message" class="form-control" rows="4" placeholder="Request a private viewing in London or detail additional documentation required..." required></textarea>
+            </div>
+            
+            <div class="form-group">
+              <label class="checkbox-group">
+                <input type="checkbox" id="fundsCheckbox" required>
+                <span class="checkmark"></span>
+                <span class="checkbox-label">I confirm that I possess proof of funds to complete this transaction.</span>
+              </label>
+            </div>
+            
+            <div class="form-group">
+              <label class="checkbox-group">
+                <input type="checkbox" id="viewingCheckbox">
+                <span class="checkmark"></span>
+                <span class="checkbox-label">Request private inspection in the United Kingdom.</span>
+              </label>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%; border:none; margin-top:20px;">Submit Enquiry</button>
+            
+            <div id="formSuccess" class="form-feedback success">Enquiry successfully submitted. A private treaty representative will contact you shortly.</div>
+            <div id="formError" class="form-feedback error">Please complete all fields and verify your email.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <a href="#" class="footer-logo">SHELBY <span>0425</span></a>
+      
+      <ul class="footer-links">
+        <li><a href="#provenance">Provenance</a></li>
+        <li><a href="#specifications">Specifications</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#history">History</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+      
+      <p class="footer-disclaimer">
+        Disclaimer: This landing page is a custom, artistic portfolio presentation celebrating the historical 1967 Shelby GT500 Engineering Car (Chassis 0425). All registry details, paint configurations, and factory options are based on historical reference logs for demonstration purposes. This is not an active auction or commercial sales contract.
+      </p>
+      
+      <p class="footer-copyright">
+        &copy; 2026 Chassis 0425 Archive. Developed for Classic Shelby Collectors.
+      </p>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX OVERLAY -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose">&times;</button>
+      <img id="lightboxImage" src="" alt="">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="app.js"></script>
+</body>
+</html>
