@@ -419,7 +419,8 @@ document.addEventListener('DOMContentLoaded', () => {
       validateField(message, message.value.trim() !== '');
       validateField(phone, phone.value.trim() !== '');
       
-      validateField(email, email.value.trim() !== '');
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      validateField(email, emailRegex.test(email.value.trim()));
 
       const checkmark = fundsCheckbox.closest('.checkbox-group').querySelector('.checkmark');
       if (fundsCheckbox.checked) {
